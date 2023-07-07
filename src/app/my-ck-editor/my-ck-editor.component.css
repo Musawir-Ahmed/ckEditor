@@ -1,0 +1,167 @@
+    /* body {
+            background: rgb(204, 204, 204);
+        } */
+        .fw-normal {
+            font-weight: normal;
+        }
+
+        .underlined {
+            text-decoration: underline;
+        }
+
+        .value {
+            word-wrap: break-word
+        }
+
+        .h-fixed {
+            height: 50px;
+        }
+
+        .h-fixed-2 {
+            height: 100px;
+        }
+
+        .h-fixed-narrow {
+            height: 40px;
+        }
+
+        .r-align {
+            text-align: right;
+        }
+
+        .c-align {
+            text-align: center;
+        }
+
+        .l-align {
+            text-align: left;
+        }
+
+        .j-align {
+            text-align: justify;
+        }
+
+        .wfull {
+            width: 100%;
+        }
+
+        .repeating-section {
+            width: 100%;
+            display: none;
+        }
+
+        .w10 {
+            width: 10%;
+        }
+
+        .w20 {
+            width: 20%;
+        }
+
+        .w25 {
+            width: 25%;
+        }
+
+        .w30 {
+            width: 30%;
+        }
+
+        .w40 {
+            width: 40%;
+        }
+
+        .w50 {
+            width: 50%;
+        }
+
+        .w60 {
+            width: 60%;
+        }
+
+        .w70 {
+            width: 70%;
+        }
+
+        .w80 {
+            width: 80%;
+        }
+
+        .w90 {
+            width: 90%;
+        }
+
+        .w33 {
+            width: 33%;
+        }
+
+        .mt2 {
+            margin-top: 20px;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .borders {
+            border-right: 1px solid black;
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid black;
+        }
+
+        .borders-collapse {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        .borders-all {
+            border: 1px solid black;
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        }
+
+        page[size="A4"] {
+            width: 21cm;
+            height: 29.7cm;
+        }
+
+        page[size="A4"][layout="landscape"] {
+            width: 29.7cm;
+            height: 21cm;
+        }
+
+        page[size="A3"] {
+            width: 29.7cm;
+            height: 42cm;
+        }
+
+        page[size="A3"][layout="landscape"] {
+            width: 42cm;
+            height: 29.7cm;
+        }
+
+        page[size="A5"] {
+            width: 14.8cm;
+            height: 21cm;
+        }
+
+        page[size="A5"][layout="landscape"] {
+            width: 21cm;
+            height: 14.8cm;
+        }
+
+        @media print {
+
+            body,
+            page {
+                margin: 0;
+                box-shadow: 0;
+            }
+        }
